@@ -1,0 +1,86 @@
+/* Global Font */
+* {
+    font-family: 'Alegreya Sans', sans-serif;
+}
+
+/* Landing Page Navbar */
+nav {
+    max-width: 100%;
+    padding-left: 2% !important;
+    padding-right: 2% !important;
+}
+
+a.navbar-brand:first-child {
+    max-width: 30%;
+}
+
+nav img {
+    max-width: 60%;
+    min-width: 200px !important;
+}
+
+nav li {
+    padding: 5%;
+}
+
+.nav-name li:hover {
+    background-color: #0278b9;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-name li:hover a,
+.nav-name li:hover i {
+    color: white !important;
+    cursor: pointer;
+}
+
+nav li>a {
+    text-transform: uppercase;
+    text-wrap: nowrap;
+}
+
+.nav-social li:hover a {
+    background-color: #0278b9 !important;
+}
+
+/* Landing Page Body */
+.carousel-inner,
+.carousel-item,
+#myCarousel {
+    height: 78vh;
+    width: auto;
+}
+
+/*  Landing Page Footer */
+footer .mb-4 a:hover {
+    background-color: #0278b9 !important;
+}
+
+/* Aruba Nav */
+
+/* Aruba Body */
+.text-decoration-underline {
+    text-decoration-color: #0278b9 !important;
+    text-decoration-thickness: 2px !important;
+    text-underline-offset: 10px !important;
+}
+
+.card {
+    border-radius: 0 !important;
+}
+
+#arubaHomeImageBox {
+    background-image: url(/assets/PHX_Homepage_BlueFeature.jpg);
+    background-position: center;
+}
+
+/* Setting Blue */
+.btn-primary,
+.text-bg-primary {
+    background-color: #0278b9 !important;
+}
+
+.btn-primary {
+    border: #0278b9 !important;
+}
