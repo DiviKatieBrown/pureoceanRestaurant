@@ -71,7 +71,12 @@ footer .mb-4 a:hover {
 }
 
 #arubaHomeImageBox {
-    background-image: url(/assets/PHX_Homepage_BlueFeature.jpg);
+    background-image: url(/assets/PHX/PHX_Homepage_BlueFeature.jpg);
+    background-position: center;
+}
+
+#arubaTeamImageBox {
+    background-image: url(/assets/PHX/PHX_Team_BlueFeature.jpg);
     background-position: center;
 }
 
